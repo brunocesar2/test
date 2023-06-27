@@ -42,8 +42,3 @@
   height: 100%;
   background-color: rgba(0, 0, 0, 0.7);
 }
-@media (max-width: 500px) {
-  .introduction {
-    padding: 6rem .75rem;
-  }
-}
