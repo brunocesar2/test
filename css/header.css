@@ -1,0 +1,13 @@
+.header {
+  grid-column: 1/-1;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 6rem;
+  background: #222;
+}
+.header a {
+  color: #fff;
+}
+.header .title {
+  font-size: 1.25rem;
+}
