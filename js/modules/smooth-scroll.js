@@ -1,6 +1,6 @@
 export default function initSmoothScroll() {
-  const button = document.querySelector("[data-smoothScroll]");
-  if (button) {
+  const buttons = document.querySelectorAll("[data-smoothScroll]");
+  if (buttons) {
     function activeScroll(event) {
       event.preventDefault();
       const href = event.currentTarget.getAttribute("href");
@@ -8,8 +8,10 @@ export default function initSmoothScroll() {
       section.scrollIntoView({
         behavior: "smooth",
         block: "start",
-      })
+      });
     }
-    button.addEventListener("click", activeScroll);
+    buttons.forEach((button) => {
+      button.addEventListener("click", activeScroll);
+    });
   }
 }
