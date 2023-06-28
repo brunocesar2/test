@@ -22,17 +22,21 @@
 .projects h2 {
   font-size: 1.75rem;
   text-align: center;
-  padding-bottom: 1rem;
+  padding-bottom: 2rem;
 }
 .projects div {
   display: flex;
 }
 .projects .button {
-  margin: 0 .25rem;
+  margin: 1rem .25rem 0 .25rem;
   align-self: end;
 }
 .projects h3 {
   padding-bottom: 5px;
+}
+.projects img {
+  border-radius: 10px;
+  align-self: end;
 }
 @media (max-width: 700px) {
   .projects-list {
