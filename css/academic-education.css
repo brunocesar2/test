@@ -1,16 +1,29 @@
 .academic-education {
-  padding: 2rem 0.75rem;
-  grid-column: 2/4;
+  grid-column: 1/-1;
   display: grid;
-  grid-template-columns: 40px auto 1fr;
-  padding: 2rem .75rem 0 .75rem;
+  grid-template-columns: 1fr 40px 50px minmax(100px, 750px) 1fr;
+  padding: 2rem 0;
+  background: #333;
+}
+.academic-education .subtitle {
+  grid-column: 2/-1;
 }
 .academic-education img {
-  grid-column: 2/3;
-  padding-right: .5rem;
+  grid-column: 3;
+}
+.academic-education p {
+  padding-left: 1rem;
+  grid-column: 4/-1;
 }
 @media (max-width: 800px) {
+  .academic-education {
+  padding: 2rem .75rem;
+  }
   .academic-education img {
-    grid-column: 1/3;
+    grid-column: 2;
+  }
+  .academic-education p {
+    padding-left: 1rem;
+    grid-column: 3/-1;
   }
 }
