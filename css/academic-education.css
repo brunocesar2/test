@@ -1,0 +1,16 @@
+.academic-education {
+  padding: 2rem 0.75rem;
+  grid-column: 2/4;
+  display: grid;
+  grid-template-columns: 40px auto 1fr;
+  padding: 2rem .75rem 0 .75rem;
+}
+.academic-education img {
+  grid-column: 2/3;
+  padding-right: .5rem;
+}
+@media (max-width: 800px) {
+  .academic-education img {
+    grid-column: 1/3;
+  }
+}
