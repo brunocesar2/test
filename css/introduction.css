@@ -2,6 +2,7 @@
   grid-column: 1/-1;
   display: grid;
   justify-items: center;
+  text-align: center;
   background: url(../img/wallpaper.jpg) center/cover;
   padding: 11.58rem 0.75rem;
 }
