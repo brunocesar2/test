@@ -12,8 +12,12 @@
 .header .title {
   font-size: 1.25rem;
 }
+.header-menu {
+  display: flex;
+  gap: 0 .5rem;
+}
 .header-menu a {
-  padding: .25rem .75rem;
+  padding: .75rem;
   border-radius: 10px;
 }
 @media (max-width: 1440px) {
