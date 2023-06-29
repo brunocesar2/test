@@ -1,5 +1,5 @@
 .projects {
-  padding: 2rem .75rem;
+  padding: 2rem .75rem 0 .75rem;
   grid-column: 2/4;
   display: grid;
   grid-template-columns:40px 1fr 1fr;
@@ -22,11 +22,6 @@
   width: 7rem;
   padding: 6px 0 12px 0;
 }
-.projects h2 {
-  font-size: 1.75rem;
-  padding-bottom: 2rem;
-  grid-column: 1/-1;
-}
 .projects div {
   display: flex;
 }
@@ -44,8 +39,5 @@
 @media (max-width: 800px) {
   .projects-list {
     grid-template-columns: 1fr;
-  }
-  .projects-list {
     grid-column: 1/4;
-  }
 }
