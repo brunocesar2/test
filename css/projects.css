@@ -41,8 +41,11 @@
   border-radius: 10px;
   align-self: end;
 }
-@media (max-width: 700px) {
+@media (max-width: 800px) {
   .projects-list {
     grid-template-columns: 1fr;
+  }
+  .projects-list {
+    grid-column: 1/4;
   }
 }
