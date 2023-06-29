@@ -40,4 +40,5 @@
   .projects-list {
     grid-template-columns: 1fr;
     grid-column: 1/4;
+  }
 }
