@@ -17,7 +17,7 @@
 }
 @media (max-width: 800px) {
   .academic-education {
-  padding: 2rem .75rem;
+    padding: 2rem 0.75rem;
   }
   .academic-education img {
     grid-column: 2;
