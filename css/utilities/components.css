@@ -11,3 +11,8 @@
 .button:hover {
   background: rgb(182, 36, 36);
 }
+.subtitle {
+  font-size: 1.75rem;
+  padding-bottom: 2rem;
+  grid-column: 1/-1;
+}
