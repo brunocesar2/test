@@ -1,34 +1,33 @@
 .header {
   grid-column: 1/-1;
   display: flex;
-  justify-content:space-around;
+  flex-wrap: wrap;
+  justify-content: space-around;
   align-items: center;
   padding: 1rem 0;
-  background: #333;
-}
-.header a {
-  color: #fff;
+  gap: .5rem;
 }
 .header .title {
   font-size: 1.25rem;
 }
 .header-menu {
   display: flex;
-  gap: 0 .5rem;
+  gap: .5rem;
 }
 .header-menu a {
-  padding: .75rem;
+  padding: 0.75rem;
   border-radius: 10px;
+  display: block;
 }
 @media (max-width: 1440px) {
   .header {
-    justify-content:space-between;
+    justify-content: space-between;
     padding: 1rem 6rem;
   }
 }
 @media (max-width: 800px) {
   .header {
-    padding: 1rem .75rem;
+    padding: 1rem 0.75rem;
   }
   .header-menu a {
     background: #000;
