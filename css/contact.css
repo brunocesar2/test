@@ -1,0 +1,15 @@
+.contact {
+  grid-column: 2/4;
+  padding: 2rem 0;
+  display: grid;
+  grid-template-columns: 40px 48px 1fr;
+}
+.contact a {
+  grid-column: 2/3;
+}
+.contact img {
+  display: none;
+}
+.contact .fixed-image {
+  display: block;
+}
