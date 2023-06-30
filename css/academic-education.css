@@ -3,7 +3,6 @@
   display: grid;
   grid-template-columns: 1fr 40px 50px minmax(100px, 750px) 1fr;
   padding: 2rem 0;
-  background: #333;
 }
 .academic-education .subtitle {
   grid-column: 2/-1;
