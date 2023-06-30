@@ -2,17 +2,9 @@
 body {
   margin: 0;
   font-family: "Rubik", sans-serif;
-  color: #ccc;
-  background: #000;
 }
 button {
   font-family: "Rubik", sans-serif;
-}
-h1,
-h2,
-h3,
-h4 {
-  color: #fff;
 }
 h1,
 h2,
@@ -53,4 +45,53 @@ dd {
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 40px minmax(300px, 800px) 1fr;
+}
+@media (prefers-color-scheme: light) {
+  body {
+    color: #333;
+    background: #fff;
+  }
+  .header .title {
+    color: #000;
+  }
+  .header-menu a {
+    color: #333;
+  }
+  .subtitle,
+  h3 {
+    color: #000;
+  }
+  .projects-item {
+    background: #ddd;
+    border: 1px solid #bbb;
+  }
+  .contact img.light-theme {
+    display: block;
+  }
+}
+@media (prefers-color-scheme: dark) {
+  body {
+    color: #ccc;
+    background: #000;
+  }
+  .gray-background {
+    background: #333;
+  }
+  .header .title {
+    color: #fff;
+  }
+  .header-menu a {
+    color: #ccc;
+  }
+  .subtitle,
+  h3 {
+    color: #fff;
+  }
+  .projects-item {
+    background: #222;
+    border: 1px solid #444;
+  }
+  .contact img.dark-theme {
+    display: block;
+  }
 }
