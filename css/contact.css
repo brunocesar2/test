@@ -2,14 +2,25 @@
   grid-column: 2/4;
   padding: 2rem 0;
   display: grid;
-  grid-template-columns: 40px 48px 1fr;
+  grid-template-columns: 40px 1fr 1fr 1fr;
 }
-.contact a {
-  grid-column: 2/3;
+.contact .light-theme,
+.contact .dark-theme {
+  grid-column: 2/5;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
 }
-.contact img {
-  display: none;
+.contact .light-theme p,
+.contact .dark-theme p {
+  grid-row: 2;
 }
-.contact .fixed-image {
-  display: block;
+@media (max-width: 800px) {
+  .contact {
+    padding: 2rem 0.75rem;
+  }
+  .contact .light-theme,
+  .contact .dark-theme {
+  grid-column: 1/5;
+}
 }
