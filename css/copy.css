@@ -1,0 +1,15 @@
+.copy {
+  grid-column: 1/-1;
+  padding: 1rem 0;
+  display: grid;
+  grid-template-columns: 1fr 40px minmax(300px, 800px) 1fr;
+}
+.copy p {
+  text-align: center;
+  grid-column: 3/4;
+}
+@media (max-width: 800px) {
+  .copy {
+    padding: 1rem .75rem;
+  }
+}
