@@ -65,8 +65,11 @@ dd {
     background: #ddd;
     border: 1px solid #bbb;
   }
-  .contact img.light-theme {
-    display: block;
+  .contact .light-theme {
+    display: grid;
+  }
+  .contact .dark-theme {
+    display: none;
   }
 }
 @media (prefers-color-scheme: dark) {
@@ -91,7 +94,10 @@ dd {
     background: #222;
     border: 1px solid #444;
   }
-  .contact img.dark-theme {
-    display: block;
+  .contact .dark-theme {
+    display: grid;
+  }
+  .contact .light-theme {
+    display: none;
   }
 }
