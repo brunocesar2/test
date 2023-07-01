@@ -7,8 +7,6 @@
 .contact .light-theme,
 .contact .dark-theme {
   grid-column: 2/5;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
   justify-items: center;
 }
 .contact .light-theme p,
